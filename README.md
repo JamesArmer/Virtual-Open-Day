@@ -1,6 +1,8 @@
 # Virtual Open Day for the School of Computer Science
 Group 9
 
+#*Video and 360 tour not uploaded*
+
 ## Files for WebPages
 * index.html - home page
 * Header - Top Navigation Bar

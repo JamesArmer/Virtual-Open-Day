@@ -1,0 +1,70 @@
+#desktopbtn{
+    background-color: #005597;
+    color: white !important;
+    text-decoration: underline;
+}
+
+#windows{
+  visibility: hidden;
+}
+
+#background{
+  margin-left: 13%;
+  margin-top: 10px;
+  width: 80em;
+}
+
+.display{
+  margin-left: 30%;
+  margin-top: 8%;
+  width: 50%;
+}
+
+#video{
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+}
+
+#overlay{
+  visibility: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.icon{
+  float: left;
+  position: absolute;
+  left: 14%;
+  height: 6em;
+  width: 5em;
+  cursor: pointer;
+}
+
+#help-icon{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  body{
+    font-size: 10px;
+  }
+  #background{
+    margin-left: 16%;
+    overflow-y: hidden;
+    max-width: 83%;
+  }
+  .icon{
+    left: 17%;
+  }
+  .display{
+    width: 90%;
+    margin-top: 50%;
+    margin-left: 5%;
+  }
+}

@@ -1,0 +1,42 @@
+.builder .browser {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.builder .browser .top {
+    padding: 10px;
+    background: #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.builder .browser .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.builder .browser .content {
+    padding: 0;
+}
+.col-md-4{
+	-ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 70%
+}
+#detail{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+#assessment{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+h1{
+    margin-left: 20%;
+    padding-top: 2%;
+}
+
+

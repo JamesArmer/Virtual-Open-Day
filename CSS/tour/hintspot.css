@@ -1,0 +1,33 @@
+/***********************************************************
+*		This file is originally liscensed by google, downloaded
+*		from marzipano.net
+*		This file is modified for building *virtual tour* system
+*		for university of nottingham computer science second year
+*		group project group9
+*
+*		**g52grp____group9**
+*
+*  	No modification were made
+*		This is css file of info hotspots within the tour with id 'link'
+************************************************************/
+
+#hintspot {
+  width: 60px;
+  height: 60px;
+  margin-left: -30px;
+  margin-top: -30px;
+
+  opacity: 0.8;
+  transition: opacity 0.2s;
+
+  cursor: pointer;
+}
+
+#hintspot img {
+  width: 100%;
+  height: 100%;
+}
+
+#hintspot:hover {
+  opacity: 1;
+}

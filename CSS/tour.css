@@ -1,0 +1,32 @@
+#tourbtn{
+    background-color: #005597;
+    color: white !important;
+    text-decoration: underline;
+}
+
+#help img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	cursor: pointer;
+}
+
+#help{
+	margin: -80px;
+}
+
+.tour{
+    margin: 10% auto;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tour a{
+    text-decoration: none;
+}

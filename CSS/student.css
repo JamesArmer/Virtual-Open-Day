@@ -1,0 +1,54 @@
+#studentbtn{
+    background-color: #005597;
+    color: white !important;
+    text-decoration: underline;
+}
+#vid{
+	position: absolute;
+    margin-left: 22%;
+	margin-top: 3%;
+}
+.display{
+  margin-left: 30%;
+  margin-top: 2%;
+  width: 40%;
+  min-height: 515px;
+  min-width: 915px;
+}
+#overlay{
+  visibility: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.timetable-class{
+  cursor: pointer;
+}
+select, option{
+  cursor: pointer;
+  font-size: 20px;
+  padding: 8px 8px;
+  margin-bottom: 1%;
+}
+#pageSpace{
+  margin-left: 15%;
+  margin-top: 1%;
+}
+#moduleInfo{
+  max-height: 1000px;
+}
+
+@media screen and (max-width: 1000px){
+  #moduleInfo{
+    width: 95%;
+  }
+
+  #vid{
+    width: 70%;
+    height: auto;
+  }
+}

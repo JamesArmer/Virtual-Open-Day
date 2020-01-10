@@ -1,0 +1,108 @@
+#questionsbtn{
+    background-color: #005597;
+    color: white !important;
+    text-decoration: underline;
+}
+
+#mainBody{
+  margin-left: 15%;
+  margin-top: 1%;
+  font-size: 20px;
+}
+
+.sidenav a{
+  padding: 2% 5% !important;
+}
+
+.question {
+  border-bottom: 2px solid #aaaaaa;
+  max-width: 1400px;
+}
+
+#tableDiv{
+  overflow-x: auto;
+  max-height: 20em;
+}
+
+.idNumbers{
+  visibility: hidden;
+}
+
+#sortingButtons{
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+.questionButton {
+  background-color: #E0E0E0;
+  font-size: 14px !important;
+  padding: 3px 6px;
+
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #757575;
+
+  cursor: pointer;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+button:hover{
+  background-color: #EEEEEE;
+}
+
+button:active{
+  box-shadow: 0 1px #757575;
+  transform: translateY(2px);
+}
+
+.display{
+  margin-left: 30%;
+  margin-top: 5%;
+  width: 50em;
+}
+
+#overlay{
+  visibility: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+input[type=submit] {
+    height: 36px;
+    width: 36px;
+    color: rgba(0,0,0,0);
+    border-style: none;
+    cursor: pointer;
+  }
+
+.grey {
+    background: url('../Resources/Q&A/thumb_up_grey.png');
+}
+
+.blue {
+  background: url('../Resources/Q&A/thumb_up_blue.png');
+}
+
+#searchButton{
+  background: url('../Resources/Q&A/search.png');
+}
+
+@media screen and (max-width: 1000px){
+  #tableDiv{
+    overflow-x: visible;
+  }
+  .question {
+    font-size: 24px !important;
+  }
+  .display{
+    width: 90%;
+    margin-top: 50%;
+    margin-left: 5%;
+  }
+}

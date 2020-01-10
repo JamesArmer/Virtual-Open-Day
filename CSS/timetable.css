@@ -1,0 +1,14 @@
+#instruction{
+	position: absolute;
+	margin-left: 320px;
+}
+#timetablestep{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+.col-md-4{
+	-ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 70%
+}

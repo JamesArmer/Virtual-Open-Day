@@ -1,0 +1,72 @@
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+   width:100%;
+   overflow: visible;
+ }
+
+#editor {
+   height: 100%;
+   width: 50%;
+   display: inline-block;
+}
+
+#container {
+  height:100%;
+  width:85%;
+  float: right;
+  white-space : nowrap;
+  overflow : hidden;
+  position:relative;
+  padding-top: 1%;
+}
+
+#iframe {
+	height: 100%;
+	display: inline-block;
+	width: 50%;
+}
+
+/* disable tag matching */
+.ace_editor .ace_marker-layer .ace_bracket {
+  display: none
+}
+
+#progbtn{
+    background-color: #005597;
+    color: white !important;
+    text-decoration: underline;
+}
+
+.main-body{
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.example-output{
+  display: block;
+  height: 5rem;
+}
+
+@media screen and (max-width: 1000px){
+  p{
+    font-size: 11px;
+  }
+  .example-output{
+    height: 10rem;
+  }
+
+  #final-image{
+    margin-bottom: 5rem;
+  }
+  #editor{
+    width: 80%;
+  }
+
+  .main-body{
+    margin-left: 17%;
+    max-height: 80%;
+    overflow-x: auto;
+  }
+}

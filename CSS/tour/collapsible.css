@@ -1,0 +1,32 @@
+/*
+*		**g52grp____group9**
+*		css file for collapsible scene list within the virtual tour
+*		override some of the styles specified in style.css(e.g. style for .scenes)
+*/
+
+.collapsible {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.active, .collapsible:hover {
+	background-color: rgba(0,85,151,0.8);
+	color: #fff;
+}
+
+.content {
+	display: none;
+	overflow: hidden;
+}
+
+.scene:hover {
+	background-color: rgba(0,85,151,0.8);
+	color: #fff;
+}

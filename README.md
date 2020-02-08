@@ -1,7 +1,7 @@
 # Virtual Open Day for the School of Computer Science
 Group 9
 
-*Video and 360 tour not uploaded*
+*Video and 360 tour not uploaded due to size*
 Link to the video I filmed and edited: https://www.youtube.com/watch?v=k1WTiUAEHd4
 
 ## Files for WebPages
